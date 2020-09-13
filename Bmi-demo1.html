@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bmi-demo1</title>
+</head>
+<body>
+<script>
+    let weight = +prompt('enter the weight');
+    let height = +prompt('enter the height');
+    let BMI = weight / (height * height);
+    if(BMI>=30.0)
+        alert('You are Obese');
+    else if(BMI>=25.0 && BMI<=30.0)
+        alert('You are Overweight');
+    else if(BMI>=18.5 && BMI<=25.0)
+        alert('You are Normal');
+    else
+        alert('You are Underweight');
+</script>
+</body>
+</html>
